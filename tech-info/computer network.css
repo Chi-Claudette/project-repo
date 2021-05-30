@@ -1,0 +1,131 @@
+#header{
+	color: white;
+    background-color: steelblue;
+	margin: 0px;
+	display: inline-flex;
+	padding: 10px;
+}
+	.logo
+{
+	margin-left: 10px;
+}
+.menu ul
+{
+	margin-left: 260px;
+	display: inline-flex;
+	list-style: none;
+}
+.menu ul li 
+{
+	width: 268px;
+}
+.menu ul li a
+{
+	text-decoration: none;
+	color: pink;
+}
+.menu ul li a: hover
+{
+	color: green;
+}
+.menu ul li a: visited
+{
+	color: orange;
+}
+.sub   
+{
+	display: none;
+}
+.menu ul li:hover .sub
+{
+	display: block;
+	position: absolute;
+	left: 350px;
+	
+}
+.menu ul li:hover .sub ul
+{
+	display: block;
+	display: inline;
+}
+.menu ul li:hover .sub ul li
+{
+	margin-top: 15px;
+	background-color: steelblue;
+	text-align: center;
+	padding: 5px;
+}
+.menu ul li:hover .sub ul li:first-child
+{
+	margin-top: 0px;
+}
+.menu ul li:hover .sub ul li a
+{
+	color:white;
+}
+.menu ul li:hover .sub ul li a: hover
+{
+	color: blue;
+}
+menu ul li:hover .sub ul li a: visited
+{
+	color: red;
+}
+#footer{
+	color: white;
+	background-color: steelblue;
+	text-align: center;
+	padding: 5px;
+ 
+}
+#footer
+{
+    display: inline-flex;
+    width: 1255px;
+}
+.contact
+{
+	margin-left: 40px;
+}
+.service
+{
+	margin-left: 250px;
+}
+.copy
+{
+	margin-left: 350px;
+	margin-top: 80px;
+}
+.body
+{
+	font-size: 20px;
+}
+.types
+{
+	list-style-type: myanmar;
+}
+body
+{
+	overflow-x: hidden;
+}
+.related a
+{
+	text-decoration: none;
+}
+.top
+{
+	color: magenta;
+	text-decoration: none;
+	font-size: 25px;
+	margin-left: 500px;
+}
+.bot
+{
+	color: magenta;
+	text-decoration: none;
+	font-size: 25px;
+}
+.pic
+{
+	margin-left: 200px;
+}

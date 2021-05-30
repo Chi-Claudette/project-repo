@@ -1,0 +1,137 @@
+	@media only screen and (max-width:600px)
+	{
+		body
+		{
+			background-color: yellow;
+		}
+	}
+	
+.nav
+{
+	margin: 0px;
+	display: inline-flex;
+	background-color: skyblue;
+}
+.logo
+{
+	margin-left: 10px;
+}
+.menu ul
+{
+	margin-left: 350px;
+	display: inline-flex;
+	list-style: none;
+}
+.menu ul li 
+{
+	width: 270px;
+}
+.menu ul li a
+{
+	text-decoration: none;
+	color: green;
+}
+.menu ul li a: hover
+{
+	color: green;
+}
+.menu ul li a: visited
+{
+	color: orange;
+}
+.sub   
+{
+	display: none;
+}
+.menu ul li:hover .sub
+{
+	display: block;
+	position: absolute;
+	left: 340px;
+	
+}
+.menu ul li:hover .sub ul
+{
+	display: block;
+	display: inline;
+}
+.menu ul li:hover .sub ul li
+{
+	margin-top: 15px;
+	background-color: skyblue;
+	text-align: center;
+	padding: 5px;
+}
+.menu ul li:hover .sub ul li:first-child
+{
+	margin-top: 0px;
+}
+.menu ul li:hover .sub ul li a
+{
+	color:forestgreen;
+}
+.menu ul li:hover .sub ul li a: hover
+{
+	color: blue;
+}
+menu ul li:hover .sub ul li a: visited
+{
+	color: red;
+}
+.footer
+{
+	background-color: grey;
+	display: inline-flex;
+	margin-top: 30px;
+}
+.welcome
+{
+	text-align: center;
+	margin-top: 30px;
+	text-shadow: 1px 1px mediumorchid;
+}
+p
+{
+	font-size: 20px;
+	font-family: serif;
+}
+a
+{
+	font-size: 18px;
+	color: mediumblue;
+
+}
+a:hover
+{
+	color: orange;
+}
+a:visited
+{
+	color: purple;
+}
+.tech
+{
+	font-size: 15px;
+}
+span
+{
+	font-size: 18px;
+}
+h2
+{
+  text-shadow: 2px 2px mediumorchid;
+  color: teal;
+}
+.terms
+{
+	margin-left: 700px;
+}
+.contact
+{
+	margin-left: 30px;
+}
+#copyright
+{
+   margin-left: 100px;
+   margin-top: 70px;
+}

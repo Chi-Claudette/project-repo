@@ -1,0 +1,168 @@
+body
+{
+	overflow-x: hidden;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+#header{
+	color: white;
+    background-color: steelblue;
+	display: inline-flex;
+	padding: 10px;
+	top: 0px;
+}
+	.logo
+{
+	margin-left: 10px;
+}
+.menu ul
+{
+	margin-left: 350px;
+	display: inline-flex;
+	list-style: none;
+}
+.menu ul li 
+{
+	width: 268px;
+}
+.menu ul li a
+{
+	text-decoration: none;
+	color: pink;
+}
+.menu ul li a: hover
+{
+	color: green;
+}
+.menu ul li a: visited
+{
+	color: orange;
+}
+.sub   
+{
+	display: none;
+}
+.menu ul li:hover .sub
+{
+	display: block;
+	position: absolute;
+	left: 350px;
+	
+}
+.menu ul li:hover .sub ul
+{
+	display: block;
+	display: inline;
+}
+.menu ul li:hover .sub ul li
+{
+	margin-top: 15px;
+	background-color: steelblue;
+	text-align: center;
+	padding: 5px;
+}
+.menu ul li:hover .sub ul li:first-child
+{
+	margin-top: 0px;
+}
+.menu ul li:hover .sub ul li a
+{
+	color:white;
+}
+.menu ul li:hover .sub ul li a: hover
+{
+	color: blue;
+}
+menu ul li:hover .sub ul li a: visited
+{
+	color: red;
+}
+#home
+{
+	color: white;
+}
+.combination
+{
+	display: inline-flex;	
+}
+#nav{
+    color: white;
+    background-color: turquoise;
+    height: 5100px;
+    padding: 2px;
+	line-height: 40px;
+	width: 647px;
+	
+}
+#nav a
+{
+	color: purple;
+	text-decoration: none;
+	font-size: 14px;
+}
+#nav a:hover
+{
+	color: white;
+}
+#nav a:visited
+{
+	color: blue;
+}
+#section{
+	margin-left: 4px;
+}
+.pic
+{
+	background-image: url('home.jpg');
+	background-size: cover;
+	height: 200px;
+	padding: 210px;
+}
+.welcome
+{
+    text-align: center;
+	margin-top: 10px;
+	color: pink;
+	font-weight: bolder;
+	box-shadow: 1px 1px 3px 5px steelblue;
+	background-color: rgba(20,10,30,0.5);
+	padding: 30px;
+}
+#footer{
+	color: white;
+	background-color: steelblue;
+	text-align: center;
+	padding: 5px;
+    clear: both;
+}
+#footer
+{
+    display: inline-flex;
+    width: 1240px;
+}
+.contact
+{
+	margin-left: 40px;
+}
+.service
+{
+	margin-left: 250px;
+}
+.copy
+{
+	margin-left: 350px;
+	margin-top: 80px;
+}
+
+p
+{
+  	font-size: 18px;
+}
+.top
+{
+	margin-left: 400px;
+	font-size: 22px;
+	text-decoration: none;
+	color: magenta;
+}
